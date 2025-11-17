@@ -1,0 +1,18 @@
+{
+  "bob": {
+    "username": "bob",
+    "password": "bob"
+  },
+  "mario": {
+    "username": "mario",
+    "password": "mario"
+  },
+  "ciao": {
+    "username": "ciao",
+    "password": "ciao"
+  },
+  "ale": {
+    "username": "ale",
+    "password": "ale"
+  }
+}

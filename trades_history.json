@@ -1,0 +1,101 @@
+[
+  {
+    "price": 34567,
+    "size": 100,
+    "timestamp": 1762621622289,
+    "buyOrderId": 82910,
+    "buyerUsername": "mario",
+    "buyerOrderType": "market",
+    "sellOrderId": 82909,
+    "sellerUsername": "ale",
+    "sellerOrderType": "limit"
+  },
+  {
+    "price": 34567,
+    "size": 200,
+    "timestamp": 1762621631579,
+    "buyOrderId": 82911,
+    "buyerUsername": "mario",
+    "buyerOrderType": "market",
+    "sellOrderId": 82909,
+    "sellerUsername": "ale",
+    "sellerOrderType": "limit"
+  },
+  {
+    "price": 100,
+    "size": 100,
+    "timestamp": 1762642803608,
+    "buyOrderId": 82913,
+    "buyerUsername": "mario",
+    "buyerOrderType": "market",
+    "sellOrderId": 82912,
+    "sellerUsername": "ale",
+    "sellerOrderType": "limit"
+  },
+  {
+    "price": 100,
+    "size": 100,
+    "timestamp": 1762645145485,
+    "buyOrderId": 82915,
+    "buyerUsername": "mario",
+    "buyerOrderType": "market",
+    "sellOrderId": 82914,
+    "sellerUsername": "ale",
+    "sellerOrderType": "limit"
+  },
+  {
+    "price": 100,
+    "size": 100,
+    "timestamp": 1762645276512,
+    "buyOrderId": 82918,
+    "buyerUsername": "mario",
+    "buyerOrderType": "market",
+    "sellOrderId": 82916,
+    "sellerUsername": "ale",
+    "sellerOrderType": "limit"
+  },
+  {
+    "price": 200,
+    "size": 10,
+    "timestamp": 1762645547414,
+    "buyOrderId": 82922,
+    "buyerUsername": "ale",
+    "buyerOrderType": "market",
+    "sellOrderId": 82919,
+    "sellerUsername": "mario",
+    "sellerOrderType": "limit"
+  },
+  {
+    "price": 200,
+    "size": 100,
+    "timestamp": 1762645583474,
+    "buyOrderId": 82924,
+    "buyerUsername": "mario",
+    "buyerOrderType": "market",
+    "sellOrderId": 82923,
+    "sellerUsername": "ale",
+    "sellerOrderType": "limit"
+  },
+  {
+    "price": 100,
+    "size": 50,
+    "timestamp": 1762645639073,
+    "buyOrderId": 82926,
+    "buyerUsername": "mario",
+    "buyerOrderType": "limit",
+    "sellOrderId": 82925,
+    "sellerUsername": "ale",
+    "sellerOrderType": "stop"
+  },
+  {
+    "price": 100,
+    "size": 100,
+    "timestamp": 1762693178253,
+    "buyOrderId": 82930,
+    "buyerUsername": "mario",
+    "buyerOrderType": "limit",
+    "sellOrderId": 82927,
+    "sellerUsername": "ale",
+    "sellerOrderType": "limit"
+  }
+]
