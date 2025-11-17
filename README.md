@@ -69,7 +69,6 @@ The Order Book and executed trades are stored using:
 | ---------------------------------------------------------- | ------------- | --------------- |
 | Request Handler                                            | Thread Pool   | Order Book      |
 | (TCP Listener)                                             | (Worker pool) | (Bid/Ask lists) |
-| +--------------------------------------------------------+ |               |                 |
 
 +--------------------------------------------------------+
 
