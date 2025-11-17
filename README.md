@@ -137,7 +137,9 @@ java -cp out server.CrossServer
 java -cp out client.CrossClient
 ```
 
-🧪 Example Interaction (simplified)
+---
+
+## 🧪 Example Interaction (simplified)
 NEW_ORDER LIMIT BUY 45000 0.5
 
 Server:
@@ -155,8 +157,9 @@ Server → Client (UDP):
 
 TRADE_EXECUTED order=42 filled=0.3 price=44900
 
+---
 
-🧠 Core Concepts Demonstrated
+## 🧠 Core Concepts Demonstrated
 🧵 Concurrency
 
 -Custom ThreadPool
@@ -193,8 +196,9 @@ TRADE_EXECUTED order=42 filled=0.3 price=44900
 
 -Asynchronous events over UDP
 
+---
 
-👤 Author
+##👤 Author
 
 Alessandro Han
 
