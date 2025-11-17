@@ -163,7 +163,7 @@ TRADE_EXECUTED order=42 filled=0.3 price=44900
 ---
 
 ## 🧠 Core Concepts Demonstrated
-🧵 Concurrency
+### 🧵 Concurrency
 
 -Custom ThreadPool
 
@@ -171,7 +171,7 @@ TRADE_EXECUTED order=42 filled=0.3 price=44900
 
 -Shared order book protected against race conditions
 
-🔌 Networking
+### 🔌 Networking
 
 -TCP socket server
 
@@ -179,7 +179,7 @@ TRADE_EXECUTED order=42 filled=0.3 price=44900
 
 -UDP message broadcast
 
-📊 Data Structures
+### 📊 Data Structures
 
 -Priority queues for bid/ask
 
@@ -187,13 +187,13 @@ TRADE_EXECUTED order=42 filled=0.3 price=44900
 
 -Trade history list
 
-💾 Persistence
+### 💾 Persistence
 
 -JSON encoding/decoding
 
 -Automatic recovery of saved state
 
-🧱 Distributed Protocols
+### 🧱 Distributed Protocols
 
 -Custom text-based protocol for commands
 
