@@ -191,7 +191,7 @@ NEW_ORDER LIMIT BUY 45000 500
 
 ### Server → Client (UDP):
 ```bash
-TRADE_EXECUTED order=42 size=0.3 price=44900
+TRADE_EXECUTED order=42 size=300 price=44900
 ```
 ---
 
