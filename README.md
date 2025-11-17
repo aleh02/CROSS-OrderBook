@@ -70,46 +70,46 @@ The Order Book and executed trades are stored using:
         ┌────────────────────────────────┼─────────────────────────────────┐
         │                                │                                 │
         ▼                                ▼                                 ▼
-┌──────────────────┐        ┌─────────────────────┐        ┌───────────────────────┐
-│   TCP Listener   │        │     Thread Pool     │        │     UDP Sender        │
-│ Accepts client   │        │  Worker threads     │        │ Sends async events    │
-│ connections      │        │ handle requests in  │        │ (trade notifications, │
-└──────────────────┘        │ FIFO order          │        │   order updates…)     │
-                           └─────────────────────┘        └───────────────────────┘
+    ┌──────────────────┐        ┌─────────────────────┐        ┌───────────────────────┐
+    │   TCP Listener   │        │     Thread Pool     │        │     UDP Sender        │
+    │ Accepts client   │        │  Worker threads     │        │ Sends async events    │
+    │ connections      │        │ handle requests in  │        │ (trade notifications, │
+    └──────────────────┘        │ FIFO order          │        │   order updates…)     │
+                                └─────────────────────┘        └───────────────────────┘
                                          │
                                          ▼
-                              ┌─────────────────────┐
-                              │     Request Parser  │
-                              │ (BUY/SELL, MARKET/  │
-                              │   LIMIT commands)   │
-                              └─────────────────────┘
-                                         │
-                                         ▼
-                              ┌─────────────────────┐
-                              │      Order Book     │
-                              │  (BID & ASK lists)  │
-                              └─────────────────────┘
-                                         │
-                                         ▼
-                              ┌─────────────────────┐
-                              │   Matching Engine   │
-                              │ Matches orders via  │
-                              │ price-time priority │
-                              └─────────────────────┘
-                                         │
-                                         ▼
-                              ┌─────────────────────┐
-                              │     Trade Log       │
-                              │  Executed trades    │
-                              │  stored as JSON     │
-                              └─────────────────────┘
-                                         │
-                                         ▼
-                              ┌─────────────────────┐
-                              │   JSON Persistence  │
-                              │ Saves/loads order   │
-                              │ book & trade history│
-                              └─────────────────────┘
+                               ┌─────────────────────┐
+                               │     Request Parser  │
+                               │ (BUY/SELL, MARKET/  │
+                               │   LIMIT commands)   │
+                               └─────────────────────┘
+                                          │
+                                          ▼
+                               ┌─────────────────────┐
+                               │      Order Book     │
+                               │  (BID & ASK lists)  │
+                               └─────────────────────┘
+                                          │
+                                          ▼
+                               ┌─────────────────────┐
+                               │   Matching Engine   │
+                               │ Matches orders via  │
+                               │ price-time priority │
+                               └─────────────────────┘
+                                          │
+                                          ▼
+                               ┌─────────────────────┐
+                               │     Trade Log       │
+                               │  Executed trades    │
+                               │  stored as JSON     │
+                               └─────────────────────┘
+                                          │
+                                          ▼
+                               ┌─────────────────────┐
+                               │   JSON Persistence  │
+                               │ Saves/loads order   │
+                               │ book & trade history│
+                               └─────────────────────┘
 
 
 ---
