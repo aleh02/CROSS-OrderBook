@@ -125,7 +125,7 @@ The Order Book and executed trades are stored using:
 ## ⚙️ Build & Run
 
 ### 🔧 Requirements
-- Java 17+
+- Java 8+
 - Terminal with `javac`/`java`
 
 ### ▶ Compile
