@@ -1,6 +1,5 @@
 # 💱 CROSS – BTC/USD Exchange Simulator  
 A multithreaded client–server Bitcoin exchange simulator built in Java.  
-Developed as part of *Laboratorio 3 – Università di Pisa*.
 
 The system implements a simplified cryptocurrency exchange with:
 - An **Order Book** (bid/ask)  
